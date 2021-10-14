@@ -1,0 +1,73 @@
+ # zad1
+# def funkcja1 (imie, nazwisko):
+#     a=imie[0]
+#     b=nazwisko[0]
+#     print(a,'.',b)
+# a=funkcja1('pawel','leszczynski')
+# print('rozwiazanie zadania pierwszego: ',a)
+
+# zad2
+# def funkcja2 (imie, nazwisko):
+#     a=imie[0]
+#     b=nazwisko
+#     print(a.capitalize(),'.',b.capitalize())
+# a=funkcja2('pawel','leszczynski')
+# print('rozwiazanie zadania drugiego: ',a)
+
+# zad3
+# def funkcja3 (cyfr1,cyfr2,wiek):
+#     c=str(cyfr1)+str(cyfr2)
+#     c=int(c)
+#     rok=c-wiek
+#     print('rok urodzenia: ',rok)
+# a=funkcja3(20,21,23)
+# print(a)
+
+# zad5
+# def funkcja5(arg1,arg2):
+#     if (arg1>=0) and (arg2>0):
+#         a=arg1/arg2
+#         print('wynik dzielenia: ',a)
+#     else: print('nieprawid³owe dane')
+# a=funkcja5(4,2)
+# print(a)
+
+# zad6
+# i=0
+# while i!=100:
+#     a=input('wprowadz liczbe')
+#     i=i+int(a)
+#     print('aktualna wartosc i: ',i)
+
+# zad7
+# def funkcja7(lista1):
+#     return tuple(lista1)
+# lista=['koala',2,'trzy']
+# print(funkcja7(lista))
+
+# zad8
+# lista2=[]
+# a=1
+# while a!=0:
+#     b=input("dodaj element do listy")
+#     lista2.append(b)
+#     a=input('wprowadz 0 jezeli chcesz zakonczyc')
+#     a=int(a)
+# krotka=tuple(lista2)
+# print(krotka)
+
+# zad9
+# lista3=['poniedzialek', 'wtorek','sroda', 'czwartek','piatek','soboa','niedziela']
+# a=input('wprowadz liczbe')
+# print(lista3[int(a)-1])
+
+# zad10
+
+# a=input('wprowadz tekst')
+# def funkcja10(a):
+#         b = True
+#         for x in range(len(a)):
+#             if a[x] != a[-x - 1]:
+#                 b=False
+#         return b
+# print(funkcja10(a))
