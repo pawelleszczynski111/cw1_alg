@@ -1,0 +1,30 @@
+from typing import Any
+
+import int as Int
+
+
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+
+class LinkedList:
+    def __init__(self, node=None):
+        self.head = node
+
+    def push(self, value: Any):
+        node = Node(value)
+        node.next = self.head
+        self.head = node
+
+    def __str__(self):
+        strng = ""
+        node = self.head
+        while node != None:
+            if node.next != None:
+                strng+=str(node.value)+"->"
+            else:
+                strng+=str(node.value)
+            node = node.next
+        return strng
